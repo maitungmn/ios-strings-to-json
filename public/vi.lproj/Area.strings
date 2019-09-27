@@ -1,0 +1,14 @@
+/*
+  Area.strings
+  Habitify
+
+  Created by Peter Vu on 8/21/19.
+  Copyright © 2019 Peter Vu. All rights reserved.
+*/
+
+"manage" = "Quản lý nhóm";
+"add.folder" = "Thêm nhóm";
+"new.folder" = "Thêm nhóm";
+"folder.name.placeholder" = "Tên nhóm";
+"uncategorized.habits" = "Huỷ nhóm thói quen";
+"benefit" = "Nhóm giúp bạn sắp xếp thói quen và theo dõi quá trình theo những mục đích khác nhau.";

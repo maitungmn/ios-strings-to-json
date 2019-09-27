@@ -1,0 +1,44 @@
+"snoozed.for" = "Báo lại sau %@"; // Example: Snoozed for 15 minutes
+"action.change.snooze.to" = "Báo lại %@"; // Example: Snooze 15 minutes
+
+"daily.briefing.morning.default.title" = "Chào buổi sáng Habitify-er!";
+"daily.briefing.morning.default.message" = "Cùng nhìn lại danh sách để hoàn thành từng nhiệm vụ nào.";
+
+"daily.briefing.morning.title" = "Tổng quan hôm nay";
+"daily.briefing.morning.single" = "Thói quen duy nhất của ban hôm nay là %1$@ vào lúc %2$@.";
+"daily.briefing.morning.no.habit.in.day" = "Không có nhiệm vụ nào cho hôm nay! Hãy tận hưởng thời gian cho bản thân nào!";
+"daily.briefing.morning.empty.habit.day.one.title" = "Thói quen đầu tiên nào!";
+"daily.briefing.morning.empty.habit.day.one.message" = "Thiền cải thiện sức tập trung cho một ngày làm việc hiệu quả. Cùng nhau thử nhé!";
+"daily.briefing.morning.empty.habit.day.two.title" = "Thói quen thứ 2 nhé!";
+"daily.briefing.morning.empty.habit.day.two.message" = "Tập thể dục buổi sáng để đầu óc tỉnh táo và ngủ ngon hơn. Cùng tạo thói quen này nhé.";
+"daily.briefing.morning.empty.habit.fallback.title" = "Khởi động buổi sáng thôi!";
+"daily.briefing.morning.empty.habit.fallback.message" = "Một lịch trình buổi sáng phù hợp sẽ cho bạn năng lượng cho cả ngày dài. Cùng tạo thói quen đầu tiên nào!";
+
+"daily.briefing.evening.default.title" = "Hôm nay của bạn thế nào rồi?";
+"daily.briefing.evening.default.message" = "Ghi chú lại từng côt móc quan trọng bằng cách vuốt sang trái nhé. Bạn sẽ có thêm động lực cho ngày mai đấy!";
+"daily.briefing.evening.title" = "Tổng kết ngày";
+"daily.briefing.evening.completed.all" = "Bạn đã hoàn thành mọi thói quen! Chúc mừng!";
+"daily.briefing.evening.completed.in.progress.2" = "Cùng xem lại hôm nay bạn đã làm tốt như thế nào nhé";
+"daily.briefing.evening.empty.habit.day.one.title" = "Bắt đầu những thói quen buổi tối nào!";
+"daily.briefing.evening.empty.habit.day.one.message" = "Thiền và đọc sách giúp giấc ngủ sâu hơn. Thử nhé, chỉ 5 phút thôi.";
+"daily.briefing.evening.empty.habit.day.two.title" = "Bắt đầu những thói quen buổi tối nào!";
+"daily.briefing.evening.empty.habit.day.two.message" = "Những người thành công thường viết nhật kí để xem lại và chuẩn bị cho ngày hôm sau. Sao bạn không thử chứ.";
+"daily.briefing.evening.empty.habit.fallback.title" = "Cùng nhau lên kế hoạch tối nay nhé!";
+"daily.briefing.evening.empty.habit.fallback.message" = "Thiền. Giãn cơ. Ghi chép. Đọc sách. Cùng nhau tạo một thói quen mà bạn thích nhé!";
+"daily.briefing.evening.break.record" = "Bạn đã lập kỉ lục cá nhân mới cho hôm nay, cùng xem nhé!";
+"daily.briefing.evening.weekly.single.habit.completed" = "Bạn đã hoàn thành mục tiêu cho tuần này của %@. Tuyệt!"; // Example: You have completed this week’s goal of Read Book. Sweet!
+
+"habit.one.streak" = "Bạn có thể thực hiện thói quen này 1 lần, lần 2 có gì khó!";
+"habit.zero.streak.empty.checkin" = "Đây là một thói quen mới. Bắt đầu những ngày đầu tiên nào!";
+"habit.last.failed" = "Lần trước bạn đã thất bại ở thói quen này. Lần này cố lên nhé!";
+"habit.last.skipped" = "Lần trước thói quen này đã bị bỏ qua. Lần này sẽ không vậy chứ?";
+"habit.last.none" = "Lần trước bạn không hoàn thành thói quen này. Lần này thì sao nhỉ?";
+
+"timer.running.title" = "Đang tính giờ";
+"timer.running.body" = "%1@ sẽ kết thúc vào lúc %2@"; // Example: Read Book session will end at 7:30 AM
+
+"timer.completed.title" = "Nhiệm vụ hoàn thành";
+"timer.completed.body" = "%1@ trong %2@ đã hoàn thành. Nhấn để lưu."; // Example: Your Read Book session for 20 minutes has completed. Press to save.
+
+"timer.cancelled.title" = "Huỷ nhiệm vụ";
+"timer.cancelled.body" = "Nhiệm vụ %@ của bạn đã bị huỷ vì bạn đóng Habitify."; // Example: Your session for Read Book has been discarded because you’ve cleared Habitify in background.

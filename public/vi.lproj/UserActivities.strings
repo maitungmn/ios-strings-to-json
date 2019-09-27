@@ -1,0 +1,9 @@
+"completed.withName" = "%@ xong";
+"skipped.withName" = "%@ bỏ qua";
+"undone.withName" = "%@ chưa xong";
+"view.current.time.of.day" = "Thói quen hiện tại";
+"view.all" = "Toàn bộ thói quen";
+
+"add.note.for" = "Thêm ghi chú cho %@"; // Example: Add Note for Read Book
+"view.progress" = "Xem kết quả";
+"view.progress.of" = "Xem %@"; // Example: View Readbook

@@ -1,0 +1,26 @@
+"empty.title" = "Vạn sự khởi đầu nan";
+"empty.message" = "Thói quen giống như domino, một quân cờ đổ các quân cờ khác sẽ đổ theo!";
+"empty.secondary.see.other" = "Xem thói quen phổ biến";
+
+"empty.in.specific.day.title" = "Bạn không có thói quen nào hôm nay đâu!";
+"empty.in.specific.day.message" = "Hãy nạp đầy năng lượng và quay lại vào ngày mai nhé!";
+"screen.name" = "Nhật ký";
+"dismiss" = "Bỏ qua";
+"hide.completed" = "Ẩn mục đã hoàn thành";
+"show.completed" = "Hiển thị mục đã hoàn thành";
+
+"date.progress.empty.habit" = "Cùng tạo và hoàn thành những thói quen đầu tiên nào";
+"date.progress.no.habit.in.day" = "Hôm nay là một ngày rảnh rỗi!";
+"date.progress.half" = "Bạn đi được một nửa rồi đấy!";
+"date.progress.one.left" = "Chỉ còn một thói quen thôi. Cố lên!";
+"date.progress.one.completed" = "Bạn đã hoàn thành xuất sắc mọi thói quen!";
+
+"habit.message.failed" = "Lần tới bạn nhất định làm được!";
+"habit.message.skipped" = "Vuốt sang trái để ghi chú lại lí do ";
+"habit.message.empty.checkins" = "Hãy bắt đầu ngay từ hôm nay!";
+
+"not.visible.habit.start.date" = "%1$@ sẽ được hiển thị từ %2$@"; // Example: Read Book will be visible from tomorrow onwards
+"not.visible.habit.regularly" = "%1$@ sẽ được hiển thị từ %2$@"; // Example: Run will be visible from Tuesday, July 28 onwards
+"not.visible.habit.time.of.day" = "%1$@ không được hiển thị tại %2$@. Để xem được, chuyển qua Toàn Bộ Thói quen."; // Example: Meditate is not visible in Morning, Switch to All Habit to see it.
+
+"new.habit" = "Thói quen mới";

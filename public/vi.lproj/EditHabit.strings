@@ -1,0 +1,43 @@
+"screen.name" = "Chỉnh sửa thói quen";
+"name" = "Tên";
+"repeat" = "Lặp lại";
+"start.date" = "Ngày bắt đầu";
+"reminder" = "Nhắc nhở";
+"add.reminder" = "Thêm Nhắc nhở";
+"daily" = "Theo ngày";
+"weekly" = "Hàng tuần";
+"interval" = "Lặp lại";
+"delete.habit" = "Xóa thói quen";
+"delete.confirm.title" = "Xác nhận";
+"delete.confirm.message" = "Dữ liệu sẽ bị xóa vĩnh viễn và không thể khôi phục. Bạn có chắc chắn không?";
+"delete" = "Xóa";
+"archive.habit" = "Tạm lưu thói quen";
+"unarchive.habit" = "Bỏ tạm lưu thói quen";
+"time.of.day" = "Thời gian trong ngày";
+"copy.to.clipboard" = "Copy vào clipboard";
+"copied" = "Đã copy";
+"xcallback.read.more" = "Đọc thêm về x-callback-url";
+"reminder.example" = "Ví dụ: 9:00";
+"suggested" = "Gợi ý";
+"suggested.meditate" = "Thiền";
+"suggested.run" = "Chạy bộ";
+"suggested.core.training" = "Tập luyện";
+"suggested.read.book" = "Đọc sách";
+"suggested.learn.language" = "Học ngoại ngữ";
+"suggested.cardio" = "Tập Cardio";
+"suggested.yoga" = "Tập Yoga";
+"cancel.confirm.message" = "Thông tin của bạn chưa được lưu. Bạn có muốn tiếp tục không?";
+"delete.reminder" = "Xoá nhắc nhở này";
+
+"repeat.everyday" = "Lặp lại hằng ngày";
+"repeat.weekdays" = "Lặp lại ngày trong tuần";
+"repeat.weekend" = "Lặp lại cuối tuần";
+"repeat.specific.weekdays" = "Lặp lại mỗi %@"; // Example: Repeat every Thu, Sat, Sun
+
+"time.goal.disabled" = "Không có mốc thời gian";
+"time.goal.enabled" = "Mục tiêu %@"; // Example: Goal 20 minutes
+
+"time.of.day.any.time" = "Thực hiện bất cứ lúc nào";
+"time.of.day.specific" = "Thực hiện lúc %@"; // Example: Do at morning
+
+"start.date.from" = "Từ %@"; // Example: From today

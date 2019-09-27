@@ -1,0 +1,44 @@
+/* 
+  NewUpgrade.strings
+  Habitify
+
+  Created by Peter Vu on 3/29/19.
+  Copyright © 2019 Peter Vu. All rights reserved.
+*/
+
+"title" = "Mua bản nâng cấp Habitify";
+"package.popular" = "Nổi bật";
+"package.best.value" = "Giá trị tốt nhất";
+"package.life-time" = "Trọn đời";
+"package.bill.once" = "Thanh toán một lần";
+"cta.trial" = "Bắt đầu trải nghiệm miễn phí";
+
+"purchase.terms" = "Tài khoản iTunes của bạn sẽ được tính phí khi xác nhận mua hàng. Gói đăng ký sẽ được tự động gia hạn. Tài khoản của bạn sẽ được tính phí gia hạn %@ trong vòng 24 giờ trước khi gói hiện tại kết thúc. Bạn có thể quản lý gói đăng ký hoặc dừng đăng ký trong Cài đặt tài khoản. Đọc <a href='https://habitify.me/privacy-policy.html'>Chính sách giá cả</a> và <a href='https://habitify.me/terms-of-use.html'>Điều khoản sử dụng</a> của chúng tôi";
+"purchase.life.time.terms" = "Tài khoản iTunes của bạn sẽ thanh toán %@ khi xác nhận mua hàng. Đây là gói thanh toán 1 lần. Khi thanh toán cho gói này, bạn sẽ sở hữu gói Nâng cấp trọn đời trên mọi nền tảng mà không mất thêm bất kì phí nào.";
+
+"benefits.unlimited.habit.title" = "Không giới hạn thói quen";
+"benefits.unlimited.habit.description" = "Trở thành một người toàn diện hơn bằng cách tạo thêm thói quen trong mọi lĩnh vực cuộc sống.";
+
+"benefits.skip.title" = "Bỏ qua thói quen";
+"benefits.skip.description" = "Bảo vệ chuỗi ngày hiện tại bằng chức năng \"Bỏ qua\".";
+
+"benefits.archive.title" = "Lưu thói quen";
+"benefits.archive.description" = "Giữ cho danh sách thói quen luôn gọn gàng bằng cách lưu trữ những thói quen không cần thiết.";
+
+"benefits.yearly.calendar.title" = "Lịch năm";
+"benefits.yearly.calendar.description" = "Có cái nhìn tổng quan về hiệu suất hiện tại của bạn với màn hình năm.";
+
+"benefits.dark.mode.title" = "Chế độ ban đêm";
+"benefits.dark.mode.description" = "Thư giãn đôi mắt khi kiểm tra lại tiến độ của bạn vào ban đêm.";
+
+"benefits.export.data.title" = "Xuất dữ liệu";
+"benefits.export.data.description" = "Khám phá bản thân bạn nhiều hơn bằng cách xuất dữ liêụ ra các công cụ phân tích khác.";
+
+"benefits.privacy.lock.title" = "Khoá bảo mật";
+"benefits.privacy.lock.description" = "Bảo vệ thông tin với mật khẩu, TouchID hoặc FaceID.";
+
+"benefits.notes.title" = "Ghi chú cho thói quen";
+"benefits.notes.description" = "Nhanh chóng ghi lại những thành tích của bạn hoặc bất kì điều gì bằng Ghi chú.";
+
+"benefits.unlimited.reminder.title" = "Không giới hạn thông báo";
+"benefits.unlimited.reminder.description" = "Nhận được thông báo liên tục cho những thói quen \"cứng đầu\" với nhắc nhở không giới hạn.";

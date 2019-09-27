@@ -1,0 +1,53 @@
+"error.network.title" = "Lỗi mạng";
+"error.unknown.title" = "Có gì đó hơi sai sai!";
+"error.authentication.email.existed.message" = "Bạn đã đăng ký bằng email này. Bạn thử dùng email khác nhé.";
+"error.authentication.wrong.email.format.message" = "Lỗi định dạng email";
+"error.authentication.wrong.email.or.password.message" = "Email hoặc mật khẩu sai";
+"error.authentication.user.cancelled.facebook.message" = "Dừng đăng nhập";
+"error.authentication.email.not.provided.facebook.message" = "Bạn chưa nhập email. Xin hãy thử cách khác.";
+"error.forgot.password.email.doesnt.exist.message" = "Oops! Email này không tồn tại.";
+
+"sync-data-description" = "Tạo tài khoản để lưu trữ và đồng bộ dữ liệu";
+"connect-facebook" = "Kết nối với Facebook";
+"sign-up-email" = "Đăng ký với Email";
+"sign-in-email" = "Tôi đã đăng ký";
+"skip" = "Bỏ qua";
+
+"sign.up" = "Tạo tài khoản";
+"agree.term" = "Khi đăng ký, bạn đồng ý với điều khoản riêng tư của chúng tôi";
+"forgot.password" = "Bạn quên mật khẩu?";
+
+"forgot.password.title" = "Đổi mật khẩu";
+"forgot.password.sent.message" = "Chúng tôi vừa gửi email cho bạn. Xin hãy click vào đường link để đổi mật khẩu.";
+"reset.password" = "Reset Password";
+"sign.in.title" = "Đăng nhập Habitify";
+"sign.in.description" = "Đăng nhập bằng tài khoản để đồng bộ hóa dữ liệu giữa các thiết bị. Nếu bạn đã có tài khoản Habitify phiên bản iOS, bạn có thể dùng nó để đăng nhập ở đây.";
+"sign.up.title" = "Tạo tài khoản mới";
+"sign.up.description" = "Tạo tài khoản mới hoặc đăng ký với Facebook để sao lưu và đồng bộ hóa dữ liệu giữa các thiết bị.";
+"sign.in.with.facebook" = "Đăng nhập với Facebook";
+"sign.up.with.facebook" = "Đăng ký với Facebook";
+"sync.title" = "Đồng bộ dữ liệu";
+"sync.mobile.instruction" = "Để đồng bộ dữ liệu trên iPhone, iPad và Apple Watch, vào màn hình Cài Đặt và đăng nhập với cùng tài khoản trên các thiết bị.";
+
+"invalid.email.title" = "Sai Email?";
+"invalid.email.subtitle" = "Email %@ chưa đúng. Bạn kiểm tra lại nhé, vì bạn sẽ cần email này để đặt lại mặt khẩu và đồng bộ tài khoản đấy.";
+"invalid.email.action.continue" = "Dùng email này";
+
+"continue.as.guest" = "Tiếp tục dưới tư cách là Khách";
+"continue.google" = "Tiếp tục với Google";
+"sign.in.google" = "Đăng nhập bằng Google";
+"continue.apple" = "Tiếp tục với Apple";
+"sign.in.apple" = "Đăng nhập bằng Apple";
+"continue.facebook" = "Tiếp tục với Facebook";
+"sign.in.facebook" = "Đăng nhập với Facebook";
+"sign.up.email" = "Đăng ký bằng Email";
+"sign.in.email" = "Đăng nhập bằng Email";
+"​
+sign.up.title" = "Đăng ký để lưu dữ liệu";
+"sign.up.message" = "Tạo tài khoản để lưu quá trình của bạn và đồng bộ với các thiết bị khác.";
+"​
+sign.in.title" = "Đăng nhập ";
+"sign.in.message" = "Đăng nhập để đồng bộ dữ liệu với các thiết bị khác.";
+"​
+forgot.password.title" = "Đặt lại mật khẩu";
+"forgot.password.message" = "Chúng tôi sẽ gửi một đường link đến hòm thư của bạn để đặt lại mật khẩu.";
