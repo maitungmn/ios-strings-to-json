@@ -8,7 +8,7 @@ const regexTypeIsString = /.*\.strings$/;
 
 let fileArr = [];
 
-fs.readdir(directoryPath, function(err, files) {
+fs.readdir(directoryPath, (err, files) => {
   //handling error
   if (err) {
     return console.log("Unable to scan directory: " + err);
@@ -22,25 +22,32 @@ fs.readdir(directoryPath, function(err, files) {
   });
 
   if (fileArr.length > 0) {
+    let final = {};
     fileArr.map(fileName => {
       i18nStringsFiles.readFile(
-        __dirname + "/public/" + fileName,
+        __dirname + "/public/vi.lproj/" + fileName,
         "UTF-8",
         function(err, data) {
           const nameOfFile = fileName.substring(0, fileName.length - 8);
-          
-          //   console.log(typeof data);
-          //   console.log(data);
-          fs.writeFile(
-            __dirname + "/models/result.json",
-            JSON.stringify(data),
-            "utf8",
-            (err, data) => {
-              if (!err) {
-                console.log("Done!");
-              }
-            }
-          );
+
+          Object.keys(data).forEach(key => {
+            const newkey = nameOfFile + "." + key;
+            final[newkey] = data[key];
+            // delete data[key];
+          });
+
+          //   console.log(final);
+
+          //   fs.writeFile(
+          //     __dirname + "/models/vi.json",
+          //     JSON.stringify(final),
+          //     "utf8",
+          //     (err, data) => {
+          //       if (!err) {
+          //         console.log("Done!");
+          //       }
+          //     }
+          //   );
         }
       );
     });
