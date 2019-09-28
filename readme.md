@@ -1,6 +1,6 @@
 ## TO USE:
-- Run each folder:
+# Run each folder:
 $ node run start <path to foler .lproj> <path to target folder> <lang (ca / en / vi)>
 
-- Run all:
+# Run all:
 $ node run all <path to foler contains *.lproj> <path to target folder>
