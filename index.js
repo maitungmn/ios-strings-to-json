@@ -2,7 +2,8 @@ const i18nStringsFiles = require("i18n-strings-files");
 const fs = require("fs");
 const path = require("path");
 
-const directoryPath = path.join(__dirname, "/public/vi.lproj");
+// const directoryPath = path.join(__dirname, "/public/vi.lproj");
+const directoryPath = process.argv[2];
 
 const regexTypeIsString = /.*\.strings$/;
 
@@ -27,7 +28,7 @@ fs.readdir(directoryPath, async (err, files) => {
       const uyt = await fetchResult(fileArr);
 
       await fs.writeFile(
-        __dirname + "/models/vi.json",
+        __dirname + `/models/${process.argv[3]}.json`,
         JSON.stringify(uyt),
         "utf8",
         (err, data) => {
@@ -47,7 +48,7 @@ const fetchResult = async fileArr => {
 
   await fileArr.map(async fileName => {
     const data = await i18nStringsFiles.readFileSync(
-      __dirname + "/public/vi.lproj/" + fileName,
+      `${directoryPath}/${fileName}`,
       "UTF-8"
     );
     const nameOfFile = fileName.substring(0, fileName.length - 8);
