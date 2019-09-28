@@ -1,6 +1,5 @@
-const i18nStringsFiles = require("i18n-strings-files");
 const fs = require("fs");
-const path = require("path");
+const fetchResult = require("./libs/result");
 
 // const directoryPath = path.join(__dirname, "/public/vi.lproj");
 const directoryPath = process.argv[2];
@@ -25,7 +24,7 @@ fs.readdir(directoryPath, async (err, files) => {
     });
 
     if (fileArr.length > 0) {
-      const uyt = await fetchResult(fileArr);
+      const uyt = await fetchResult(fileArr, directoryPath);
 
       await fs.writeFile(
         `${process.argv[3]}/${process.argv[4]}.json`,
@@ -42,23 +41,3 @@ fs.readdir(directoryPath, async (err, files) => {
     console.log(e);
   }
 });
-
-const fetchResult = async fileArr => {
-  let final = {};
-
-  await fileArr.map(async fileName => {
-    const data = await i18nStringsFiles.readFileSync(
-      `${directoryPath}/${fileName}`,
-      "UTF-8"
-    );
-    const nameOfFile = fileName.substring(0, fileName.length - 8);
-
-    await Object.keys(data).forEach(async key => {
-      const newkey = nameOfFile + "." + key;
-      final[newkey] = await data[key];
-      // delete data[key];
-    });
-  });
-
-  return final;
-};

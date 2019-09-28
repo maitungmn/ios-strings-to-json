@@ -1,7 +1,5 @@
-const i18nStringsFiles = require("i18n-strings-files");
 const fs = require("fs");
-
-// const directoryPath = process.argv[2];
+const fetchResult = require("./libs/result")
 
 const regexTypeIsString = /.*\.strings$/;
 const regexTypeIsFolder = /.*\.lproj$/;
@@ -14,7 +12,6 @@ const getDirectories = source =>
 
 let folderArr = getDirectories(process.argv[2]);
 folderArr = folderArr.filter(f => regexTypeIsFolder.test(f));
-console.log(folderArr);
 
 folderArr.map(i => {
   const directoryPath = `${process.argv[2]}/${i}`;
@@ -45,7 +42,7 @@ folderArr.map(i => {
           "utf8",
           (err, data) => {
             if (!err) {
-              console.log("Done!");
+              console.log(`Done ${i}!`);
             }
           }
         );
@@ -55,23 +52,3 @@ folderArr.map(i => {
     }
   });
 });
-
-const fetchResult = async (fileArr, directoryPath) => {
-  let final = {};
-
-  await fileArr.map(async fileName => {
-    const data = await i18nStringsFiles.readFileSync(
-      `${directoryPath}/${fileName}`,
-      "UTF-8"
-    );
-    const nameOfFile = fileName.substring(0, fileName.length - 8);
-
-    await Object.keys(data).forEach(async key => {
-      const newkey = nameOfFile + "." + key;
-      final[newkey] = await data[key];
-      // delete data[key];
-    });
-  });
-
-  return final;
-};
