@@ -28,7 +28,7 @@ fs.readdir(directoryPath, async (err, files) => {
       const uyt = await fetchResult(fileArr);
 
       await fs.writeFile(
-        __dirname + `/models/${process.argv[3]}.json`,
+        `${process.argv[3]}/${process.argv[4]}.json`,
         JSON.stringify(uyt),
         "utf8",
         (err, data) => {

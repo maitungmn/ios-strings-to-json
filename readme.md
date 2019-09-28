@@ -1,2 +1,2 @@
 ## TO USE:
-$ node run start <path to foler .lproj> <lang (ca / en / vi)>
+$ node run start <path to foler .lproj> <path to target folder> <lang (ca / en / vi)>
